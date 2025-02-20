@@ -6,8 +6,6 @@
 <a href="https://abhishekkushwaha.tech">![Website](https://img.shields.io/badge/Website-FF4500?style=flat-square)</a>
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Overview
-
 **BulbDB** is a lightweight relational database built from the ground up in Go. It features a **B+Tree storage engine** and an **SQL-like query execution layer**, making it ideal for structured data management with speed and efficiency.
 
 ## Key Features
