@@ -1,23 +1,26 @@
 # BulbDB
 
-===
-<a target="_blank" href="https://discord.gg/abhiimaurya"><img src="https://dcbadge.limes.pink/api/server/abhiimaurya?style=flat" alt="discord community" /></a>
-<a href="https://x.com/AbhishekKushwaa">![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x)</a>
+<a target="_blank" href="https://discord.gg/m9wE84YGJH"><img src="https://dcbadge.limes.pink/api/server/m9wE84YGJH?style=flat" alt="Join our Discord community" /></a>
 <a href="https://linkedin.com/in/abhishekkushwahaa">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin)</a>
+<a href="https://x.com/AbhishekKushwaa">![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x)</a>
 <a href="https://abhishekkushwaha.tech">![Website](https://img.shields.io/badge/Website-FF4500?style=flat-square)</a>
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-BulbDB is a lightweight, relational database built from scratch in Go, featuring a B+Tree storage engine and SQL-like query execution.
+## Overview
 
-## Features
+**BulbDB** is a lightweight relational database built from the ground up in Go. It features a **B+Tree storage engine** and an **SQL-like query execution layer**, making it ideal for structured data management with speed and efficiency.
 
-- **B+Tree-based storage** for efficient indexing and retrieval
-- **SQL-like query support** for structured data management
-- **Custom storage engine** optimized for performance
-- **ACID compliance** for reliability and data integrity
-- **Written in Go** with a focus on simplicity and efficiency
+## Key Features
+
+- 🚀 **Optimized B+Tree-based storage** for fast indexing and data retrieval.
+- 🛠 **SQL-like query execution** for intuitive and structured interactions.
+- 🔒 **ACID-compliant transactions** ensuring data consistency and reliability.
+- ⚡ **Custom-built storage engine** tailored for high performance.
+- 📌 **Written in Go** with a focus on efficiency, scalability, and maintainability.
 
 ## Installation
+
+To get started with BulbDB, clone the repository and build it:
 
 ```sh
 git clone https://github.com/abhishekkushwahaa/BulbDB.git
@@ -27,13 +30,13 @@ make build
 
 ## Usage
 
-Start the database server:
+Start the BulbDB server:
 
 ```sh
 ./bulbdb
 ```
 
-Execute queries using the interactive shell:
+Run queries using the interactive shell:
 
 ```sql
 CREATE TABLE users (id INT PRIMARY KEY, name TEXT, email TEXT);
@@ -43,15 +46,28 @@ SELECT * FROM users;
 
 ## Roadmap
 
-- [ ] Implement SQL Parser
-- [ ] Enhance Query Optimizer
-- [ ] Add Transaction Support
-- [ ] Improve Storage Engine
+BulbDB is an evolving project. Here are key milestones we are working on:
+
+- ✅ Initial implementation of B+Tree storage
+- 🔜 SQL Parser for advanced queries
+- 🔜 Query Optimizer enhancements
+- 🔜 ACID Transaction Support
+- 🔜 Performance tuning and scalability improvements
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests.
+We welcome contributions from the community! Feel free to **submit issues, feature requests, or pull requests** to help improve BulbDB.
+
+### How to Contribute:
+
+1. Fork the repository and create a new branch.
+2. Implement your changes with clear commit messages.
+3. Submit a pull request with a detailed description.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+BulbDB is released under the **MIT License**. See [LICENSE](LICENSE) for more details.
+
+---
+
+🚀 **Stay connected!** Join our community on **[Discord](https://discord.gg/m9wE84YGJH)** and follow updates on **[LinkedIn](https://linkedin.com/in/abhishekkushwahaa)** & **[X](https://x.com/AbhishekKushwaa)**.
